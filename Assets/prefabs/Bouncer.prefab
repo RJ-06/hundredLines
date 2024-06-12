@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 8189645183697129247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5999672, y: -5.657655, z: 0.0622845}
-  m_LocalScale: {x: 1.4101334, y: 1.4101334, z: 2.1152}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.050980393, g: 0.12941177, b: 0.2784314, a: 1}
+  m_Sprite: {fileID: 8414749646100779907, guid: 74bea16ab7f8a76469cf25777b445e9e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -94,7 +94,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 8189645183697129247}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 64367f771babff14aaa6bfe0eaa1687d, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -120,8 +120,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
+    pivot: {x: 0.5, y: -0.3888889}
+    oldSize: {x: 1, y: 1.125}
     newSize: {x: 1, y: 0.8828125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -129,10 +129,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.25, y: 0.43359375}
-      - {x: -0.5, y: 0}
-      - {x: -0.25, y: -0.43359375}
-      - {x: 0.25, y: -0.43359375}
-      - {x: 0.5, y: 0}
-      - {x: 0.25, y: 0.43359375}
+    - - {x: -0.08491966, y: 1.5662674}
+      - {x: -0.5075346, y: 1.2513597}
+      - {x: -0.5, y: 0.7411058}
+      - {x: -0.06077227, y: 0.4337327}
+      - {x: 0.06231603, y: 0.43373275}
+      - {x: 0.50753456, y: 0.74110574}
+      - {x: 0.4962327, y: 1.2664288}
+      - {x: 0.0758414, y: 1.5587329}
   m_UseDelaunayMesh: 0

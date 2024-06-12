@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1250637721260820630, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1250637721260820630, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1250637721260820630, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55,7 +55,19 @@ PrefabInstance:
     - target: {fileID: 6781830955641577445, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 362570663605130925, guid: f816cfc384387944f968cd24ee709721, type: 3}
+      objectReference: {fileID: 5406542268164581598, guid: a3d3f24da4a0a96498b5b87e5b330f61, type: 3}
+    - target: {fileID: 7584061703238179181, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.5058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584061703238179181, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.34901962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584061703238179181, guid: e420608ca30921c4f8c65f3b71487884, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.6862745
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
