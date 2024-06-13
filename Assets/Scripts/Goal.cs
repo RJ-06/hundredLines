@@ -17,7 +17,8 @@ public class Goal : MonoBehaviour {
             collision.transform.position = resetPos[0].position;
             for (int i = 0; i < players.Length; i++) { players[i].transform.position = resetPos[i + 1].position;}
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            //p.Play();
+            p.Stop();
+            p.Play();
             resetStage();
         }
     }
