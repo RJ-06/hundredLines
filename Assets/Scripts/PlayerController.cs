@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float TimeBetweenInputs;
     [SerializeField] float waitTime;
     [SerializeField] float kickForce;
+    [SerializeField] AudioSource kickSound;
     void FixedUpdate(){
         inputTimer += Time.deltaTime;
         Vector2 fAdd = new Vector2(Input.GetAxisRaw(controls[player, 0]), Input.GetAxisRaw(controls[player, 1])).normalized * speed;
@@ -31,5 +32,8 @@ public class PlayerController : MonoBehaviour {
         }
         minesPlaced.Clear();
     }
-    private void OnCollisionEnter2D(Collision2D collision){ if(collision.gameObject.CompareTag("ball"))collision.gameObject.GetComponent<Rigidbody2D>().AddForce(((Vector2)collision.transform.position - (Vector2)this.transform.position).normalized * kickForce);}
+    private void OnCollisionEnter2D(Collision2D collision){ 
+        if(collision.gameObject.CompareTag("ball"))collision.gameObject.GetComponent<Rigidbody2D>().AddForce(((Vector2)collision.transform.position - (Vector2)this.transform.position).normalized * kickForce);
+        kickSound.Play();
+    }
 }

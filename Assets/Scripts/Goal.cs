@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public class Goal : MonoBehaviour {
     public int score = 0;
-    public static int winScore;
-    public int nextScene;
+    int winScore = 3;
+    public NextScene next;
     public Transform[] resetPos;
     [SerializeField] GameObject[] players;
     [SerializeField] GameObject[] stageHazards;
@@ -28,5 +25,5 @@ public class Goal : MonoBehaviour {
             if (Random.value < 0.25f) t.SetActive(true);
         }
     }
-    /*private void Update(){ if (score > winScore) SceneManager.LoadScene(nextScene);}*/
+    private void Update(){ if (score >= winScore) next.goToNextScene();}
 }

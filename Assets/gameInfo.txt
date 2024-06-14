@@ -1,0 +1,4 @@
+Lines of code: 99! The limitvelocity script was originally used, but since taken out + commented out (and thus not counted toward line count).
+assets used:
+gameplay music: https://opengameart.org/content/crunch-fighter-level-1-the-devils-ascent
+menus: https://opengameart.org/content/just-a-minute
